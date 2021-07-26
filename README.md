@@ -1,4 +1,4 @@
-# redis
+# redis server
 
 
 redis-cli -p 6379 --tls --cert /app/ssl/certs/redis/server.crt --key /app/ssl/certs/redis/redis.key --cacert /app/ssl/certs/redis/rootca.crt
