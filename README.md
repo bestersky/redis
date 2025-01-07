@@ -10,9 +10,15 @@ AUTH your_password
 # To enable TLS for client connections
 
 > tls-cert-file "/app/ssl/certs/server.crt"
+> 
 > tls-key-file "/app/ssl/certs/server.key"
+> 
 > tls-ca-cert-file "/app/ssl/redis/rootca.crt"
+> 
 > tls-port 6379
+> 
 > tls-auth-clients yes
+> 
 > tls-protocols "TLSv1.2"
+> 
 > tls-replication yes
